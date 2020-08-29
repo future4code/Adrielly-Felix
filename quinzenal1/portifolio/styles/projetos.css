@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  table-layout: border-box;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #05f2f2;
+}
+
+body {
+  font-family: Roboto, "Segoe UI", Tahoma, sans-serif;
+  height: 100vh;
+  background-image: url("../img/2927262.jpg");
+  background-size: cover;
+  color: #05f2f2;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  height: 70px;
+  padding-right: 30px;
+  background: #12121c;
+}
+.cabecalho > a {
+  color: #05f2f2;
+  padding-left: 50px;
+}
+
+.sobremim {
+  margin: 100px;
+}
+
+.projetos {
+  flex: 1;
+  margin: 100px;
+  color: #05f2f2;
+}
+.rodape {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  height: 60px;
+  padding-right: 30px;
+  background: #12121c;
+}
+
+.rodape > a > img {
+  width: 50px;
+  height: 50px;
+  margin-left: 25px;
+}
