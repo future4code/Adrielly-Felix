@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  table-layout: border-box;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: Roboto, "Segoe UI", Tahoma, sans-serif;
+  height: 100vh;
+  background-image: url("../img/apontando.jpg");
+  background-size: cover;
+  color: #737067;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  height: 70px;
+  padding-right: 30px;
+  background: #ffcfb7;
+}
+.cabecalho > a {
+  color: #b2846e;
+  padding-left: 50px;
+}
+.rodape {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  height: 60px;
+  padding-right: 30px;
+  background: white;
+}
+
+.rodape > a > img {
+  width: 50px;
+  height: 50px;
+  margin-left: 25px;
+}
+.chá-de-fraldas-4-hex {
+  color: #f2d194;
+}
+.chá-de-fraldas-5-hex {
+  color: #f23d3d;
+}

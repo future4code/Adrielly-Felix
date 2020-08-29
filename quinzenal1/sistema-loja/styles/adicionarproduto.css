@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  table-layout: border-box;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: Roboto, "Segoe UI", Tahoma, sans-serif;
+  height: 100vh;
+  background-image: url("../img/addprod.jpg");
+  background-size: cover;
+  color: #737067;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  height: 70px;
+  padding-right: 30px;
+  background: #ffcfb7;
+}
+.cabecalho > a {
+  color: #b2846e;
+  padding-left: 50px;
+}
+.produto {
+  color: #737067;
+  margin: 20px 0 40px 250px;
+}
+
+.lista {
+  flex: 1;
+  color: #737067;
+  margin: 20px 0 40px 150px;
+}
+
+.lista > div {
+  margin: 20px 0;
+}
