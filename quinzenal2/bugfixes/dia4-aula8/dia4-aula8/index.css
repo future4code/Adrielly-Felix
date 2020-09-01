@@ -39,6 +39,11 @@ div > p:first-child {
   display: inline;
 }
 
+.search {
+  border: none;
+  border-bottom: 1px solid black;
+}
+
 .botao-amarelo {
   background-color: #ffaf43;
   width: 250px;
