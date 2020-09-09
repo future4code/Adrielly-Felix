@@ -88,7 +88,7 @@
 
 #pond {
   display: flex;
-  alinhar-itens: flex-start;
+  align-items: flex-start;
 }
 
 .amarelo {
@@ -97,7 +97,7 @@
 
 #pond {
   display: flex;
-  alinhar-itens: flex-start;
+  align-items: flex-start;
 }
 
 .amarelo {
