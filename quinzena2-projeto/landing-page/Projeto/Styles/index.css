@@ -1,0 +1,492 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  -webkit-font-smoothing: antialiased;
+  appearance: none;
+  text-size-adjust: 100%;
+  border: 0px;
+  font-weight: inherit;
+  outline: 0px;
+  padding: 0px;
+  text-rendering: optimizelegibility;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif, "Gotham SSm A",
+    "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  margin: 0px auto;
+  display: block;
+  object-fit: cover;
+  width: auto;
+  max-height: 100vh;
+}
+
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+body {
+  font-family: Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue",
+    Helvetica, Arial, sans-serif !important;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 16px;
+  height: 70px;
+  padding-right: 30px;
+  background: white;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px;
+}
+.cabecalho > a {
+  color: purple;
+  padding-left: 50px;
+}
+
+.navegacao {
+  flex: 1;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navegacao > a {
+  color: rgba(17, 17, 17, 0.7);
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.navegacao > a:hover {
+  color: rgb(138, 5, 190);
+}
+
+.logo {
+  display: flex;
+  flex-flow: wrap-reverse;
+  padding-left: 80px;
+}
+
+.botoes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.botao {
+  font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B",
+    "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.2;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  border-radius: 6.25rem;
+  background: rgb(138, 5, 190);
+  color: rgb(255, 255, 255);
+  height: 3rem;
+  cursor: pointer;
+  align-items: center;
+  position: relative;
+}
+
+.botaolink {
+  font-size: 18px;
+  font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B",
+    "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: rgb(138, 5, 190);
+  margin: 0px;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.session {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  padding: 50px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.sessiondescription {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 450px;
+}
+
+.sessiondescription > button {
+  margin: 10px 0;
+}
+
+.session2 {
+  background-image: url(./img/session2.png);
+  background-size: cover;
+  background-position: center center;
+  font-weight: bold;
+  min-width: 100vh;
+  width: 100%;
+  height: 554.5px;
+}
+
+.sessiondescription2 {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  margin: 0px 0px 32px;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  margin-left: 100px;
+  grid-area: 3 / 3 / auto / 10;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  padding-top: 200px;
+  font-size: 25px;
+  align-items: flex-start;
+  color: white;
+}
+
+.sessiondescription2 > button {
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.session3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(245 245 245);
+}
+
+.sessiondescription3 {
+  font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B",
+    "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: rgb(17, 17, 17);
+  margin: 0px 0px 32px;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  font-size: 1.75rem;
+  line-height: 1.16;
+  width: 100%;
+  padding: 50px;
+  margin-top: 150px;
+}
+.botao3 {
+  font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B",
+    "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: rgb(138, 5, 190);
+  margin: 0px;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  font-size: 3rem;
+  line-height: 1.16;
+  font-weight: bold;
+}
+
+.botao3:hover {
+  text-decoration: underline;
+}
+
+.botao4 {
+  color: rgb(138, 5, 190);
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.imagem3 {
+  max-height: 580.25px;
+  max-width: 659px;
+  object-fit: scale-down;
+}
+
+.session4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sessiondescription4 {
+  font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B",
+    "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: rgb(17, 17, 17);
+  margin: 0px 0px 32px;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  font-size: 1.6rem;
+  line-height: 1.16;
+  width: 100%;
+  padding: 50px;
+}
+.botao6 {
+  font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B",
+    "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: rgb(138, 5, 190);
+  margin: 0px;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  font-size: 3rem;
+  line-height: 1.16;
+  font-weight: bold;
+}
+
+.botao6:hover {
+  text-decoration: underline;
+}
+
+.botao7 {
+  color: rgb(138, 5, 190);
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.session5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(83, 0, 130);
+  background: cover;
+}
+
+.sessiondescription5 {
+  font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B",
+    "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: rgb(17, 17, 17);
+  margin: 0px 0px 32px;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  font-size: 1.6rem;
+  line-height: 1.16;
+  width: 100%;
+  padding: 50px;
+}
+.botao9 {
+  font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B",
+    "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: rgb(192, 147, 251);
+  margin: 0px;
+  letter-spacing: -0.03em;
+  font-size: 3rem;
+  line-height: 1.16;
+  font-weight: 500;
+}
+
+.botao9:hover {
+  text-decoration: underline;
+}
+
+.botao10 {
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.session6 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(83, 0, 130);
+  background-image: url(./img/session6.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+.sessiondescription6 {
+  font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B",
+    "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  margin: 0px 0px 32px;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  font-size: 1.6rem;
+  line-height: 1.16;
+  width: 100%;
+  padding: 50px;
+  margin-top: 50px;
+}
+
+.botao13 {
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.session7 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(83, 0, 130);
+  background-image: url(./img/session7.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+.sessiondescription7 {
+  font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B",
+    "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  margin: 0px 0px 32px;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  font-size: 1.6rem;
+  line-height: 1.16;
+  width: 100%;
+  padding: 50px;
+  margin-top: 50px;
+}
+
+.botao14 {
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 30px;
+}
+.session8 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(./img/session8.png);
+  background-size: cover;
+  background-position: center center;
+  height: 520px;
+}
+
+.sessiondescription8 {
+  font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B",
+    "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  margin: 0px 0px 32px;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  font-size: 1.6rem;
+  line-height: 1.16;
+  width: 100%;
+  padding: 50px;
+  margin-top: 50px;
+}
+
+.botao15 {
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 30px;
+}
+.session9 {
+  display: flex;
+  flex-direction: row;
+  padding: 80px 56px;
+  background-color: black;
+}
+
+.session9 > div {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.session9 > div > p {
+  color: rgb(245, 245, 245);
+  margin: 0px 0px 32px;
+  font-family: Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue",
+    Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  font-size: 1.125rem;
+  line-height: 1.32;
+}
+
+.session9 > div > ul {
+  margin-bottom: 50px;
+  list-style: none;
+}
+
+.session9 > div > ul > li {
+  margin-bottom: 8px;
+}
+
+.session9 > div > ul > li > p {
+  color: rgb(245, 245, 245);
+  margin: 0px;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.session9 > div > ul > li > a {
+  margin-bottom: 0.5rem;
+  color: rgb(255, 255, 255);
+  margin: 0px;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  font-size: 1.125rem;
+  line-height: 1.2;
+}
+
+.session9 > div > ul > li > a > img {
+  width: 151px;
+  height: 56px;
+  margin-left: -20px;
+}
+
+.session9 > div > ul > li > a:hover {
+  color: rgb(192, 147, 251);
+}
+
+.rodape {
+  display: flex;
+  justify-content: space-between;
+  padding: 56px;
+  background-color: black;
+}
+
+.textrodape {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.textrodape > img {
+  width: 66px;
+  height: 48px;
+  margin-right: 20px;
+}
+
+.icones {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+.icones > img {
+  width: 20px;
+  height: 20px;
+}
